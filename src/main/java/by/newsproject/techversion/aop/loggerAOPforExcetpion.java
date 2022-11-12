@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-public class loggerAOPforExcetpion {
+public class LoggerAOPforExcetpion {
     private final static Logger log = LogManager.getRootLogger();
 
     @AfterThrowing(pointcut = "execution" +
